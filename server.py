@@ -1,5 +1,4 @@
 import pickle
-import json
 import pandas as pd
 from flask import Flask, jsonify, request, abort
 
