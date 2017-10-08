@@ -13,7 +13,6 @@ def ApiCall():
 
 	y_train_json = request.json
 	y_train = pd.DataFrame(y_train_json,index=[0])
-	# y_train = pd.read_json(y_train_json)
 
 	y_pred = classifier.predict(y_train)    
 	return jsonify({'Species':y_pred.item()})
