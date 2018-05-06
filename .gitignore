@@ -103,3 +103,6 @@ ENV/
 model
 
 .idea
+
+configs/config.ini
+
