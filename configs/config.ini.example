@@ -1,0 +1,9 @@
+[General]
+debug = 0
+host = 0.0.0.0
+port = 5000
+model_filename = model.pkl
+model_dir = /model
+log_dir = /path/to/logs
+log_level = WARNING
+log_handler = basic
